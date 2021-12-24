@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'dart:developer';
 
 class MyListView extends StatelessWidget {
+  MyListView({Key? key}) : super(key: key);
+
   final List<String> names = <String>[
     'Manish',
     'Jitender',
     'Pankaj',
-    'Aarti',
+    'Arjun',
     'Nighat',
     'Mohit',
     'Ruchika',
@@ -18,7 +21,7 @@ class MyListView extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           return Container(
             height: 50,
-            margin: EdgeInsets.all(2),
+            margin: const EdgeInsets.all(5),
             color: Colors.green,
             child: Center(
                 child: Text(
