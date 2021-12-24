@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:developer';
+import 'dart:developer' as developer;
 
 class MyListView extends StatelessWidget {
   MyListView({Key? key}) : super(key: key);
