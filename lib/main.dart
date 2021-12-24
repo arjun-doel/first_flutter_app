@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'list_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: _title,
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
@@ -23,6 +24,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       appBar: MyAppBar(),
+      body: MyListView(),
     );
   }
 }
