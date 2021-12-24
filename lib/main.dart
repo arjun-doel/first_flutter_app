@@ -74,13 +74,10 @@ class MyCustomFormState extends State<MyCustomForm> {
       keyboardType: TextInputType.emailAddress,
       autofocus: false,
       initialValue: 'sathyabaman@gmail.com',
-      style: new TextStyle(fontWeight: FontWeight.normal, color: Colors.white),
-      decoration: InputDecoration(
-        hintText: 'Email',
-        contentPadding:
-            new EdgeInsets.symmetric(vertical: 100.0, horizontal: 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
-      ),
+      style: new TextStyle(fontWeight: FontWeight.normal, color: Colors.black),
+      decoration: new InputDecoration(
+          hintText: "Enter Something",
+          contentPadding: const EdgeInsets.all(80.0)),
     );
   }
 }
