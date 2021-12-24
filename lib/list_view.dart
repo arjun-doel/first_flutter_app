@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'dart:developer' as developer;
 
 class MyListView extends StatelessWidget {
-  MyListView({Key? key}) : super(key: key);
+  const MyListView({Key? key}) : super(key: key);
 
-  final List<String> names = <String>[
+  static const List<String> names = <String>[
     'Manish',
     'Jitender',
     'Pankaj',
